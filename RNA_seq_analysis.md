@@ -1,10 +1,9 @@
-﻿<p style="font-size: 35px;">Analyse RNA-seq de patients atteints de lymphome folliculaire (LF) avant et après prise de lénalidomide</p>
-</p>
+﻿<!-- omit in toc -->
+# Analyse RNA-seq de patients atteints de lymphome folliculaire (LF) avant et après prise de lénalidomide
+<!-- omit in toc -->
 
 Ce programme à été réalisé dans le cadre d'un travail d'analyse de données à l'Université Rennes 1 sur le cluster de calcul Genouest. <br />
-Année 2021-2022 | Antonin Weber <br />
-
-------
+Année 2021-2022 | Antonin Weber <br /> 
 
 <br />
 
