@@ -1,1 +1,1 @@
-RNA_seq_analysis.md
+../RNA_seq_analysis.md
