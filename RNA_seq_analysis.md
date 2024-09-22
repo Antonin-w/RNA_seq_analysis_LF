@@ -81,7 +81,7 @@ Les comparaisons effectuées ont été les suivantes :
 
 - D7\_versus D0\_CD4\_PD-1neg
 - D7\_versus D0\_CD4\_PD-1pos
-- 
+
 # Analyses bioinformatiques
 ## Contrôle qualité sur les données brutes
 Avant de réaliser l’alignement des fichiers bruts obtenus en sortie de séquençage, il est nécessaire d’effectuer un contrôle qualité de ces fichiers. En effet, les premières paires de bases d’un read sont séquencées avec beaucoup de fiabilité, mais plus nous avancons dans la séquence, moins c’est précis. Un programme comme FastQC produira divers graphes permettant de savoir s’il faut nettoyer les reads, et de quelle longueur - le “trimming” doit alors se faire. Cette étape est trés importante puisque des reads de mauvaise qualité s’aligneront difficilement sur le génome, et rendront toute l’analyse inutile.
