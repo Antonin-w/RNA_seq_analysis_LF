@@ -542,9 +542,7 @@ plot_3249 <- plot(x,V3249Aligned.sortedByCoord.out,type='l',xlab="Gene body perc
   title("V3249Aligned.sortedByCoord.out")
 ```
 
-<p align="center">
-  <img src="biais_couverture.png" />
-</p>
+![biais_couverture.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/8af29e444a37884fcf2ccd4547fe1d89fcb39be6/biais_couverture.png?raw=true)
 
 <div style="text-align: justify">
 
