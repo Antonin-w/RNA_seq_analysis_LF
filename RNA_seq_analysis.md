@@ -827,7 +827,7 @@ sink()
 
 Figures : **PCA Filtered Gene Expression without 3217** et **Filtered Gene Expression without 3217**
 
-![PCA_filter.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/d27033e587e69105633909bdc8cfabd5a8cf6571/Images/?raw=true)
+![PCA_filter.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/d27033e587e69105633909bdc8cfabd5a8cf6571/Images/PCA_Filtered_Gene_Expression_without_3217.png?raw=true)
 
 Grâce à l’ACP, nous pouvons assez distinctement séparer l’expression des gènes entre les échantillons **PD1neg** et **PD1pos**. Cependant, les échantillons ne sont pas très groupés en fonction de la prise ou non de lénalidomide (**J1** vs **J8**).
 
