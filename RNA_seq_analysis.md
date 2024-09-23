@@ -542,7 +542,7 @@ plot_3249 <- plot(x,V3249Aligned.sortedByCoord.out,type='l',xlab="Gene body perc
   title("V3249Aligned.sortedByCoord.out")
 ```
 
-![biais_couverture.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/8af29e444a37884fcf2ccd4547fe1d89fcb39be6/biais_couverture.png?raw=true)
+![biais_couverture.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/d27033e587e69105633909bdc8cfabd5a8cf6571/Images/biais_couverture.png?raw=true)
 
 <div style="text-align: justify">
 
@@ -790,8 +790,7 @@ sink()
 
 Figure : **Global dispersion des échantillons CD4**
 
-![global_dispersion.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/ecb65569e7ad953edee9c5788ed1bfdcdcd5e093/global_dispersion_CD4.png?raw=true)
-
+![global_dispersion.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/d27033e587e69105633909bdc8cfabd5a8cf6571/Images/global_dispersion_CD4.png?raw=true)
 
 <div style="text-align: justify">
 
@@ -800,7 +799,7 @@ Cette figure permet de savoir si nos données sont adéquats pour l’analyse DE
 #### ACP des gènes exprimés filtrés
 Figure : **PCA Filtered Gene Expression**
 
-![PCA.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/ecb65569e7ad953edee9c5788ed1bfdcdcd5e093/PCA_Filtered_Gene_Expression.png?raw=true)
+![PCA.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/d27033e587e69105633909bdc8cfabd5a8cf6571/Images/PCA_Filtered_Gene_Expression.png?raw=true)
 
 Avec tous les échantillons CD4, nous pouvons observer que l’ACP est biaisée par la mauvaise qualité de l’échantillon **3217**, cela n’est pas étonnant au vu des résultats des contrôles qualités effectués précedemment sur ce sample. Nous allons donc relancer une analyse DESeq2 sans **3217**.
 
@@ -828,7 +827,7 @@ sink()
 
 Figures : **PCA Filtered Gene Expression without 3217** et **Filtered Gene Expression without 3217**
 
-![PCA_filter.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/ecb65569e7ad953edee9c5788ed1bfdcdcd5e093/PCA_Filtered_Gene_Expression_without_3217.png?raw=true)
+![PCA_filter.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/d27033e587e69105633909bdc8cfabd5a8cf6571/Images/?raw=true)
 
 Grâce à l’ACP, nous pouvons assez distinctement séparer l’expression des gènes entre les échantillons **PD1neg** et **PD1pos**. Cependant, les échantillons ne sont pas très groupés en fonction de la prise ou non de lénalidomide (**J1** vs **J8**).
 
@@ -836,7 +835,7 @@ Sur le heatmap, nous pouvons observer les résultats du clustering hiérarchique
 
 Figure: **Genes différentiellements exprimés entre PD1pos\_C1J1 et PD1pos\_C1J8** 
 
-![DEF.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/ecb65569e7ad953edee9c5788ed1bfdcdcd5e093/DEF_PD1pos_C1J1.png?raw=true)
+![DEF.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/d27033e587e69105633909bdc8cfabd5a8cf6571/Images/DEF_PD1pos_C1J1.png?raw=true)
 
 <div style="text-align: justify">
 
@@ -863,7 +862,7 @@ Ce tableau récapitule le nombre de gènes sur-exprimés, et sous-exprimés entr
 
 **Diagramme de Venn**
 
-![Venn.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/ecb65569e7ad953edee9c5788ed1bfdcdcd5e093/diag_venn.png?raw=true)
+![Venn.png](https://github.com/Antonin-w/RNA_seq_analysis_LF/blob/d27033e587e69105633909bdc8cfabd5a8cf6571/Images/diag_venn.png?raw=true)
 
 <div style="text-align: justify">
 
